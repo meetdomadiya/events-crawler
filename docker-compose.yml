@@ -29,6 +29,7 @@ services:
       DB_PASS: root
     depends_on:
       - db
+    command: python script.py
 
 volumes:
   db_data:
