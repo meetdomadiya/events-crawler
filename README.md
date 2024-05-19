@@ -17,7 +17,7 @@ cd events-crawler
 
 run it in detached mode:
 ```
-docker-compose up -d
+docker-compose up --build
 ```
 
 To see the extracted data:
