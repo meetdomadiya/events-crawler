@@ -28,7 +28,8 @@ services:
       DB_PASS: root
     depends_on:
       - db
-    command: python script.py
+      - pgadmin
+    command: python wait-for-services.py
 
 volumes:
   db_data:
